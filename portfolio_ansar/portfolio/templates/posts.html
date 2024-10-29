@@ -1,0 +1,12 @@
+Посты: </br>
+{% for post in posts %}
+
+Название поста: {{ post.title }} </br>
+Подназвание поста: {{ post.subtitle }} </br>
+Автор поста: {{ post.author }} </br>
+Описание: {{ post.text }} </br>
+Время публикации: {{ post.published_date }} </br>
+</br>
+-------------------
+</br>
+{% endfor %}
